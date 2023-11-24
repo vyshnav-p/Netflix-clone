@@ -15,7 +15,7 @@ function Login() {
         </div>
 
         <button onClick={()=>{setSignIn(true)}} className='text-white fixed right-0 top-0 px-3 py-1 rounded-sm bg-[#e50914] hover:scale-110 font-bold transition trasform duration-200 text-sm mt-5 mr-5 md:px-5 md:py-2 md:mr-7 md:mt-7'>Sign in</button>
-         <div className='absolute top-[25%] md:p-10 text-center'>
+         <div className='absolute top-[23%] md:p-10 text-center'>
             
            {signIn ? (<Signin/>) : (
                       <>
